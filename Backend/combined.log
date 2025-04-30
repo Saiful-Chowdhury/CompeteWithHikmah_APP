@@ -1,0 +1,192 @@
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T13:49:41.677Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T13:49:41.682Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 4","timestamp":"2025-04-29T13:49:46.684Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T13:49:48.855Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T13:52:40.985Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T13:52:40.991Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 4","timestamp":"2025-04-29T13:52:45.998Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T13:52:46.328Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T13:54:08.035Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T13:54:08.040Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T13:54:11.213Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T13:54:39.137Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T13:54:39.142Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T13:54:41.046Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T13:54:59.267Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T13:54:59.274Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T13:55:01.449Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T13:56:46.194Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T13:57:02.142Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T13:58:15.086Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T13:58:45.418Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 4","timestamp":"2025-04-29T13:59:20.607Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 3","timestamp":"2025-04-29T13:59:55.723Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 2","timestamp":"2025-04-29T14:00:30.796Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:01:04.345Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:01:06.186Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:01:24.262Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:01:35.089Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:01:36.023Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:01:52.605Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:02:00.207Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:04:38.338Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:05:08.624Z"}
+{"level":"error","message":"Error details: C8320000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:05:08.626Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 4","timestamp":"2025-04-29T14:05:46.154Z"}
+{"level":"error","message":"Error details: C8320000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:05:46.156Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:06:10.716Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:06:12.495Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:06:16.749Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:07:39.144Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:08:09.345Z"}
+{"level":"error","message":"Error details: 5C010000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:08:09.346Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 4","timestamp":"2025-04-29T14:08:44.664Z"}
+{"level":"error","message":"Error details: 5C010000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:08:44.666Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 3","timestamp":"2025-04-29T14:09:19.745Z"}
+{"level":"error","message":"Error details: 5C010000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:09:19.747Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:09:24.646Z"}
+{"level":"info","message":"Server shut down gracefully.","timestamp":"2025-04-29T14:09:24.651Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:09:26.298Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:09:56.689Z"}
+{"level":"error","message":"Error details: 9C380000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:09:56.691Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 4","timestamp":"2025-04-29T14:10:31.912Z"}
+{"level":"error","message":"Error details: 9C380000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:10:31.913Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 3","timestamp":"2025-04-29T14:11:07.001Z"}
+{"level":"error","message":"Error details: 9C380000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:11:07.003Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:11:31.210Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:11:33.827Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:11:33.947Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:11:34.088Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:11:34.988Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:11:35.125Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:11:35.239Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:11:39.805Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:11:40.912Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 2","timestamp":"2025-04-29T14:11:43.714Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:13:13.472Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:13:35.123Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:13:36.333Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:13:36.475Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:13:36.616Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:13:36.721Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:13:43.710Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:14:06.711Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:14:37.095Z"}
+{"level":"error","message":"Error details: CC0D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:14:37.097Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:14:40.512Z"}
+{"level":"info","message":"Server shut down gracefully.","timestamp":"2025-04-29T14:14:40.533Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:15:13.840Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:15:14.105Z"}
+{"level":"error","message":"Error details: querySrv ENOTFOUND _mongodb._tcp.cluster0.mongodb.net","timestamp":"2025-04-29T14:15:14.107Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:15:18.435Z"}
+{"level":"info","message":"Server shut down gracefully.","timestamp":"2025-04-29T14:15:18.441Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:15:43.403Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:15:46.951Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:15:47.144Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:15:47.711Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:15:47.885Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:16:14.328Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:16:22.229Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:16:29.988Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:16:30.139Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:16:30.265Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:16:30.416Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:16:49.788Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:16:54.881Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:17:03.410Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:17:05.988Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:17:33.792Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:19:28.619Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:19:36.311Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:19:36.489Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:19:36.630Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:19:36.826Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:19:36.943Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:19:58.847Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:20:44.147Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:20:50.168Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:21:11.001Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:21:11.107Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 5","timestamp":"2025-04-29T14:21:14.495Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:21:17.685Z"}
+{"level":"error","message":"Failed to connect to MongoDB. Retries left: 1","timestamp":"2025-04-29T14:21:47.993Z"}
+{"level":"error","message":"Error details: 9C200000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n","timestamp":"2025-04-29T14:21:47.994Z"}
+{"level":"error","message":"MongoDB connection failed after multiple retries.","timestamp":"2025-04-29T14:21:53.002Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T14:23:25.165Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:23:36.104Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:23:36.246Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T14:23:36.369Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T15:20:07.544Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T15:20:18.834Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T15:20:29.888Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T15:20:31.178Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T15:20:31.339Z"}
+{"level":"info","message":"Server shut down gracefully.","timestamp":"2025-04-29T15:20:37.704Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T15:46:48.333Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T15:46:49.676Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2025-04-29T15:46:54.631Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T15:47:15.858Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T15:47:17.298Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T15:56:30.693Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T15:56:32.103Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T15:56:56.983Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T15:56:58.992Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T16:08:44.159Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:08:46.115Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-04-29T16:10:39.811Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:11:05.075Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:11:08.614Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:16:49.819Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:16:51.225Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:18:42.757Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:18:44.145Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:20:03.123Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:20:04.690Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:22:41.098Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:22:42.555Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:25:19.738Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:25:21.175Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:28:55.354Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:28:59.521Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:32:40.494Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:32:41.969Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:34:19.469Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:34:21.102Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:35:58.143Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:35:59.573Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:40:07.643Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:40:09.020Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:41:57.514Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:41:59.058Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:43:54.368Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:43:55.842Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:44:17.016Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:44:18.379Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:44:56.374Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:44:57.938Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:49:18.336Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:49:19.777Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:49:39.788Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:49:41.135Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:50:25.093Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:50:28.563Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:53:38.441Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:53:39.865Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:54:44.670Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:54:46.134Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:55:52.916Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:56:00.021Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:57:30.957Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:57:32.415Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T16:57:45.391Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T16:57:46.748Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T17:04:22.120Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T17:04:23.577Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T17:07:02.906Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T17:07:04.379Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T17:10:26.189Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T17:10:27.741Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T17:12:08.045Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T17:12:09.516Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-04-29T17:15:22.575Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-04-29T17:15:24.684Z"}

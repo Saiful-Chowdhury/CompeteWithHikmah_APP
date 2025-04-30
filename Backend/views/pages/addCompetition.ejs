@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Competition</title>
+  <link rel="stylesheet" href="/css/styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+
+  <div class="container">
+    <h1>Add New Competition</h1>
+
+    <!-- Form for Adding a Competition -->
+    <form action="/competitions/add" method="POST" enctype="multipart/form-data" class="add-competition-form">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="type">Type:</label>
+      <select id="type" name="type" required>
+        <option value="Hackathon">Hackathon</option>
+        <option value="Programming Contest">Programming Contest</option>
+        <option value="Robo Soccer">Robo Soccer</option>
+      </select>
+
+      <label for="region">Region:</label>
+      <select id="region" name="region" required>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Chittagong">Chittagong</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Barishal">Barishal</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Mymensingh">Mymensingh</option>
+        <option value="Khulna">Khulna</option>
+      </select>
+
+      <label for="institute">Institute/Organization:</label>
+      <input type="text" id="institute" name="institute" required>
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="4" required></textarea>
+
+      <label for="imageUrl">Image URL:</label>
+      <input type="url" id="imageUrl" name="imageUrl" placeholder="Enter image URL">
+
+      <button type="submit" class="submit-button">Add Competition</button>
+    </form>
+  </div>
+
+
+</body>
+</html>
