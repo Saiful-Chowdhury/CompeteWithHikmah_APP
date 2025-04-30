@@ -30,7 +30,7 @@ app.set('views', path.join(__dirname, 'views'));
 // const adminblogRoutes = require('./routes/admin/adminblogRoutes');
 // const adminCourseRoute = require('./routes/admin/adminCourseRoute');
 const adminCompetitionRoute = require('./routes/admin/adminCompetitionRoute');
-// const authRoutes = require('./routes/admin/authRoutes');
+const authRoutes = require('./routes/admin/authRoutes');
 
 // // Routes User
 // const courseRoutes = require('./routes/user/courseRoutes');
@@ -42,7 +42,7 @@ const adminCompetitionRoute = require('./routes/admin/adminCompetitionRoute');
 // app.use('/api/admin/blogs', adminblogRoutes)
 // app.use('/api/admin/courses', adminCourseRoute);
 app.use('/api/admin/competition', adminCompetitionRoute);
-// app.use('/api/admin/auth', authRoutes);
+app.use('/api/admin/auth', authRoutes);
 
 // // Routes API User
 // app.use('api/user/blogs', blogRoutes);

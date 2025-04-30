@@ -9,6 +9,6 @@ const CompetitionSchema = new mongoose.Schema({
   description: { type: String, required: true },
   imageUrl: { type: String, required: true },
 //   status: { type: String, enum: ['Upcoming', 'Running', 'Ended'], default: 'Upcoming' },
-});
+},{ timestamps: true });
 
 module.exports = mongoose.model('Competition', CompetitionSchema);
