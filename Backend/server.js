@@ -57,6 +57,8 @@ const server = app.listen(PORT, async () => {
     await connectToDatabase(); // Connect to the database
 
 });
+
+module.exports = app; // Export the server for testing
   
 // // Grace Shutdown
 
