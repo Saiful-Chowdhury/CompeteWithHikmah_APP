@@ -3,6 +3,7 @@ const cors = require('cors');
 const logger=require('./config/logger');
 const connectToDatabase = require('./config/db');
 require('dotenv').config();
+
 const path = require('path');
 // Validate environment variables
 if (!process.env.MONGODB_URI || !process.env.PORT || !process.env.JWT_SECRET) {
@@ -26,7 +27,12 @@ app.set('view engine', 'ejs');
 // Set the views directory (where your EJS files are stored)
 app.set('views', path.join(__dirname, 'views'));
 // Routes Admin
-
+app.get("/", (req, res) => {
+  res.status(200).send({
+    success: true,
+    message: "Server is running",
+  });
+});
 // const adminblogRoutes = require('./routes/admin/adminblogRoutes');
 // const adminCourseRoute = require('./routes/admin/adminCourseRoute');
 const adminCompetitionRoute = require('./routes/admin/adminCompetitionRoute');
@@ -50,6 +56,7 @@ app.use('/api/admin/auth', authRoutes);
 // app.use('api/user/news', newsRoutes);
 
 
+
 // Start Server
 const PORT =process.env.PORT || 5000;
 const server = app.listen(PORT, async () => {
@@ -57,6 +64,7 @@ const server = app.listen(PORT, async () => {
     await connectToDatabase(); // Connect to the database
 
 });
+
 
 module.exports = app; // Export the server for testing
   
