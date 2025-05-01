@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const path = require('path');
 // Validate environment variables
-if (!process.env.MONGODB_URI || !process.env.PORT || !process.env.JWT_SECRET) {
+if (!process.env.MONGODB_URI ||!process.env.JWT_SECRET) {
     logger.error('Missing required environment variables.');
     process.exit(1); // Exit with failure
   }
