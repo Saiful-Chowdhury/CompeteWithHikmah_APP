@@ -66,7 +66,6 @@ const server = app.listen(PORT, async () => {
 });
 
 
-module.exports = app; // Export the server for testing
   
 // // Grace Shutdown
 

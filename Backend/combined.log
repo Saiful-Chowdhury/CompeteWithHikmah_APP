@@ -216,3 +216,6 @@
 {"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-05-01T16:24:56.220Z"}
 {"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-05-01T16:26:02.105Z"}
 {"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-05-01T16:26:03.613Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-05-01T18:21:06.699Z"}
+{"level":"info","message":"MongoDB connected successfully.","timestamp":"2025-05-01T18:21:10.021Z"}
+{"level":"info","message":"Server running on port  http://localhost:5000","timestamp":"2025-05-01T18:26:22.047Z"}
