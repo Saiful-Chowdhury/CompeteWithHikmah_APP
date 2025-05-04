@@ -33,7 +33,8 @@ app.get("/", (req, res) => {
     message: "Server is running",
   });
 });
-// const adminblogRoutes = require('./routes/admin/adminblogRoutes');
+const adminblogRoutes = require('./routes/admin/adminblogRoutes');
+const carouselRoutes = require('./routes/admin/caroselRoutes');
 // const adminCourseRoute = require('./routes/admin/adminCourseRoute');
 const adminCompetitionRoute = require('./routes/admin/adminCompetitionRoute');
 const authRoutes = require('./routes/admin/authRoutes');
@@ -45,7 +46,8 @@ const authRoutes = require('./routes/admin/authRoutes');
 
 
 // // Routes API
-// app.use('/api/admin/blogs', adminblogRoutes)
+app.use('/api/admin/blogs',adminblogRoutes)
+app.use('/api/admin/carousel',carouselRoutes);
 // app.use('/api/admin/courses', adminCourseRoute);
 app.use('/api/admin/competition', adminCompetitionRoute);
 app.use('/api/admin/auth', authRoutes);
