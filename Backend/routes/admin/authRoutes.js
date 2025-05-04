@@ -6,8 +6,8 @@ const { authenticate } = require('../../middleware/authMiddleware');
 
 
 // Public routes
-router.post("/", register);
-router.post("/admin", adminRegister);
+router.post("/register", register);
+router.post("/admin/register", adminRegister);
 router.post("/login", login);
 
 // Admin routes
