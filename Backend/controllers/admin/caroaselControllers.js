@@ -104,3 +104,23 @@ exports.deleteCarouselItem = async (req, res) => {
     res.status(500).json({ message: "Internal server error." });
   }
 };
+
+exports.getSingleCarouselItem = async (req, res) => {
+  try {
+    const carouselItemId = req.params.id;
+
+    const carouselItem = await Carousel.findById(carouselItemId);
+
+    if (!carouselItem) {
+      return res.status(404).json({ message: "Carousel item not found." });
+    }
+
+    res.status(200).json({
+      message: "Carousel item retrieved successfully.",
+      carouselItem,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error." });
+  }
+}

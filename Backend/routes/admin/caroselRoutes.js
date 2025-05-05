@@ -8,6 +8,7 @@ router.post("/", carouselController.createCarouselItem);
 
 // Get all carousel items
 router.get("/", carouselController.getAllCarouselItems);
+router.get("/:id", carouselController.getSingleCarouselItem);
 
 // Update a carousel item
 router.put("/:id", carouselController.updateCarouselItem);
