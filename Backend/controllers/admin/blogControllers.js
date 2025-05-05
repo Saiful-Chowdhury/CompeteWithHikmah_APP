@@ -11,6 +11,15 @@ const blogSchema = joi.object({
   imageUrl: joi.string().uri().allow("").optional(),
 });
 
+// Validation schema for updating a blog
+const updateBlogSchema = joi.object({
+  title: joi.string().min(5).max(100).optional(),
+  author: joi.string().min(3).max(50).optional(),
+  content: joi.string().min(10).optional(),
+  category: joi.string().min(3).max(50).optional(),
+  imageUrl: joi.string().uri().allow("").optional(),
+}).or("title", "author", "content", "category", "imageUrl"); // At least one field must be provided
+
 // Validation schema for adding a comment
 const commentSchema = joi.object({
   author: joi.string().min(3).max(50).required(),
@@ -61,24 +70,23 @@ exports.getAllBlogs = async (req, res) => {
   }
 };
 
+// Get a single blog by ID
 exports.getSingleBlog = async (req, res) => {
-    try {
-        const blogId = req.params.id;
-        const blog = await Blog.findBy
-        Id(blogId);
-        if (!blog) {
-            return res.status(404).json({ message: "Blog not found." });
-        }
-        res.status(200).json({
-            message: "Blog retrieved successfully.",
-            blog,
-        });
+  try {
+    const blogId = req.params.id;
+    const blog = await Blog.findById(blogId); // Fixed typo here
+    if (!blog) {
+      return res.status(404).json({ message: "Blog not found." });
     }
-    catch (error) {
-        console.error(error);
-        res.status(500).json({ message: "Internal server error." });
-    }
-}
+    res.status(200).json({
+      message: "Blog retrieved successfully.",
+      blog,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error." });
+  }
+};
 
 // Add a comment to a blog
 exports.addComment = async (req, res) => {
@@ -110,46 +118,58 @@ exports.addComment = async (req, res) => {
   }
 };
 
+// Delete a blog
 exports.deleteBlog = async (req, res) => {
-    try {
-        const blogId = req.params.id;
-        const blog = await Blog.findBy
-        Id(blogId);
-        if (!blog) {
-            return res.status(404).json({ message: "Blog not found." });
-        }
-        await blog.remove();
-        res.status(200).json({
-            message: "Blog deleted successfully.",
-        });
+  try {
+    const blogId = req.params.id;
+    const blog = await Blog.findById(blogId); // Fixed typo here
+    if (!blog) {
+      return res.status(404).json({ message: "Blog not found." });
     }
-    catch (error) {
-        console.error(error);
-        res.status(500).json({ message: "Internal server error." });
-    }
-}
 
+    await Blog.findByIdAndDelete(blogId); // Use findByIdAndDelete instead of remove()
+    res.status(200).json({
+      message: "Blog deleted successfully.",
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error." });
+  }
+};
+
+// Update a blog
 exports.updateBlog = async (req, res) => {
-    try {
-        const blogId = req.params.id;
-        const { title, author, content, category, imageUrl } = req.body;
-        const blog = await Blog.findById(blogId);
-        if (!blog) {
-            return res.status(404).json({ message: "Blog not found." });
-        }
-        blog.title = title || blog.title;
-        blog.author = author || blog.author;
-        blog.content = content || blog.content;
-        blog.category = category || blog.category;
-        blog.imageUrl = imageUrl || blog.imageUrl;
-        await blog.save();
-        res.status(200).json({
-            message: "Blog updated successfully.",
-            blog,
-        });
+  try {
+    const blogId = req.params.id;
+
+    // Validate the request body
+    const { error } = updateBlogSchema.validate(req.body);
+    if (error) {
+      return res.status(400).json({ message: error.details[0].message });
     }
-    catch (error) {
-        console.error(error);
-        res.status(500).json({ message: "Internal server error." });
+
+    const { title, author, content, category, imageUrl } = req.body;
+
+    const blog = await Blog.findById(blogId);
+    if (!blog) {
+      return res.status(404).json({ message: "Blog not found." });
     }
-}
+
+    // Update only the fields provided in the request body
+    blog.title = title || blog.title;
+    blog.author = author || blog.author;
+    blog.content = content || blog.content;
+    blog.category = category || blog.category;
+    blog.imageUrl = imageUrl || blog.imageUrl;
+
+    await blog.save();
+
+    res.status(200).json({
+      message: "Blog updated successfully.",
+      blog,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error." });
+  }
+};
